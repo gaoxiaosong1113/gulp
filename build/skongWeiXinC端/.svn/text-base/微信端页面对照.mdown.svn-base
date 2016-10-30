@@ -1,0 +1,67 @@
+#微信页面对照
+
+>部分页面有重复
+
+## 首页
+* ```首页``` ========> [```home.html```](home.html)
+
+## 案例
+* ```案例``` ========> [```case.html```](case.html)
+* ```案例详情``` ========> [```caseInfo.html```](caseInfo.html)
+
+## 设计师
+* ```设计师``` ========> [```designer.html```](designer.html)
+* ```设计师详情``` ========> [```designerInfo.html```](designerInfo.html)
+
+## 部落
+* ```部落``` ========> [```tribal.html```](tribal.html)
+
+
+## 个人中心
+* ```个人中心``` ========> [```userContent.html```](userContent.html)
+
+## 预约
+* ```无醛需求``` ========> [```requirement.html```](requirement.html)
+* ```预约``` ========> [```subscribe.html```](subscribe.html)
+* ```预约成功``` ========> [```bookingSuccess.html```](bookingSuccess.html)
+
+## 我的资料
+* ```我的资料``` ========> [```myProfile.html```](myProfile.html)
+* ```我的资料-地址``` ========> [```myProfile-region.html```](myProfile-region.html)
+* ```我的资料-修改手机号码``` ========> [```myProfile-bindingPhone.html```](myProfile-bindingPhone.html)
+
+## form
+* ```登陆``` ========> [```login.html```](login.html)
+* ```注册``` ========> [```reg.html```](reg.html)
+* ```修改密码``` ========> [```passwordRetrieve.html```](passwordRetrieve.html)
+* ```填写需求``` ========> [```demand.html```](demand.html)
+* ```支付订单``` ========> [```paymentOrder.html```](paymentOrder.html)
+
+## 评论
+* ```评论``` ========> [```eval.html```](eval.html)
+* ```评价设计师``` ========> [```evaluation.html```](evaluation.html)
+
+## 订单
+* ```订单``` ========> [```myOrder.html```](myOrder.html)
+* ```订单详情``` ========> [```myOrderInfo.html```](myOrderInfo.html)
+
+## 其他
+* ```待办事项``` ========> [```backlog.html```](backlog.html)
+* ```增删项目明细``` ========> [```addDeleteItems.html```](addDeleteItems.html)
+* ```木作复尺``` ========> [```afterConfirmation.html```](afterConfirmation.html)
+* ```施工进度``` ========> [```constructionSchedule.html```](constructionSchedule.html)
+* ```周边``` ========> [```constructionSite.html```](constructionSite.html)
+* ```收藏关注``` ========> [```focusCollection.html```](focusCollection.html)
+* ```清单``` ========> [```listing.html```](listing.html)
+* ```定位``` ========> [```wxc-position.html```](wxc-position.html)
+* ```项目成员``` ========> [```projectMember.html```](projectMember.html)
+* ```选择管家``` ========> [```selectHousekeeper.html```](selectHousekeeper.html)
+
+## 私信
+* ```私信``` ========> [```privateLetter.html```](privateLetter.html)
+* ```私信聊天界面``` ========> [```privateMessage.html```](privateMessage.html)
+* ```系统消息``` ========> [```systemMessage.html```](systemMessage.html)
+
+## wxc-footer.html
+>wxc-footer页面单独拿出来，通过ajax请求到需要他的页面。需要http请求才可以看到。
+

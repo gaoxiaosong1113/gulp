@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帖子评价</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+    <script type="text/javascript" src="js/selectTouch.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh">
+    <div class="demand-contents">
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">标 题</div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <input class="wxc-input" type="text" placeholder="输入标题">
+                </div>
+                <div class="wxc-cell-ft"></div>
+            </div>
+        </div>
+        <div class="wxc-cells wxc-cells-access">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">版 块</div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <input class="wxc-input wxc-selectSelect" id="" type="text" placeholder="请选择版块"/>
+                </div>
+                <div class="wxc-cell-ft"></div>
+            </div>
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">子版块</div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <input class="wxc-input wxc-selectSelect-zbk" id="wxc-selectSelect-zbk" type="text" placeholder="请选择子版块">
+                </div>
+                <div class="wxc-cell-ft"></div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell wxc-cell-flexStart">
+                <div class="wxc-cell-hd">内 容</div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <textarea class="wxc-textarea" rows="13" placeholder="输入帖子内容"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-btn-default-fi">
+        <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">确认</button>
+    </div>
+</div>
+
+<div class="wxc-dialog wxc-dialog-bot wxc-dialog-bk">
+    <div class="wxc-dialog-hd">
+        <button class="wxc-btn default" type="button">取消</button>
+        <button class="wxc-btn primary" type="button">选择</button>
+    </div>
+    <div class="wxc-dialog-bd">
+        <div class="wxc-order-zpsjs padding">
+            <div class="wxc-select-touch">
+                <div class="wxc-select-touch-border"></div>
+                <div class="wxc-select-touch-warp slide-box wxc-dialog-bk" id="slide-box" style="transform: translate3d(0px, 0, 0);">
+                    <div class="wxc-select-touch-b cur3">
+                        <p><span>北京</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b cur2">
+                        <p><span>青岛</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b cur1">
+                        <p><span>烟台</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b">
+                        <p><span>威海</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b">
+                        <p><span>潍坊</span></p>
+                    </div>
+                </div>
+                <div class="wxc-select-touch-warp slide-box wxc-dialog-zbk" id="slide-box" style="transform: translate3d(0px, 0, 0);">
+                    <div class="wxc-select-touch-b cur3">
+                        <p><span>11111111111北京</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b cur2">
+                        <p><span>青岛</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b cur1">
+                        <p><span>烟台</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b">
+                        <p><span>威海</span></p>
+                    </div>
+                    <div class="wxc-select-touch-b">
+                        <p><span>潍坊</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    $(function () {
+        var slider = new selectTouch({
+            slide: $(".wxc-dialog-bk"),//需要显示的选择项
+            ele: $(".wxc-selectSelect")//需要调用方法的元素，支持value  text方式
+        });
+        var slider2 = new selectTouch({
+            slide: $(".wxc-dialog-zbk"),
+            ele: $(".wxc-selectSelect-zbk")
+        });
+    });
+
+</script>
+</body>
+</html>

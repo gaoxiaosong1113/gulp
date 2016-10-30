@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增删项目明细</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+<div class="wxc-main-vh">
+    <div class="wxc-listing-contents wxc-addDeleteItem-contents">
+        <div class="wxc-cells wxc-addDeleteItem-user">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">
+                    <div class="wxc-user-tx img-responsive">
+                        <img src="images/wxc-icon-user-toux.png" alt="">
+                    </div>
+                </div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-addDeleteItem-audit">
+                    <div class="wxc-addDeleteItem-name">管家：<span>陈工</span></div>
+                    <div class="wxc-addDeleteItem-info">管家意见：<span>确认增减项没问题</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-list-box">
+            <div class="wxc-cells">
+                <div class="wxc-cell wxc-cell-noLeft wxc-product-time">
+                    <p><span>商品退货</span></p>
+                    <p>退款合计:<span class="wxc-text-hint">￥4950.00</span></p>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">退货：<span>50件</span> 运费：<span>50元</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">退货：<span>50件</span> 运费：<span>50元</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">退货：<span>50件</span> 运费：<span>50元</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-list-box">
+            <div class="wxc-cells">
+                <div class="wxc-cell wxc-cell-noLeft wxc-product-time">
+                    <p><span>商品换货</span></p>
+                    <p>运费合计:<span class="wxc-text-hint">￥4950.00</span></p>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">换货：<span>50件</span> 运费：<span>50元</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">换货：<span>50件</span> 运费：<span>50元</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-list-box">
+            <div class="wxc-cells">
+                <div class="wxc-cell wxc-cell-noLeft wxc-product-time">
+                    <p><span>商品补货</span></p>
+                    <p>补货款合计:<span class="wxc-text-hint">￥4950.00</span></p>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">补货：<span>50件</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+                <div class="wxc-cell wxc-cells-alignTop wxc-product">
+                    <div class="wxc-cell-hd wxc-product-img img-responsive"><img src="images/wxc-skong-img1.png" alt=""></div>
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <h4 class="wxc-product-name">简约纯木质沙发奢华高端版</h4>
+                        <p class="wxc-product-init">颜色：<span>木色</span> 规格：<span>SJ-18</span></p>
+                        <p class="wxc-product-init">补货：<span>50件</span></p>
+                    </div>
+                    <div class="wxc-cell-ft">
+                        <p class="wxc-product-price">￥300.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-list-box">
+            <div class="wxc-cells">
+                <div class="wxc-cell wxc-cell-noLeft wxc-product-time">
+                    <p><span>增补施工工艺</span></p>
+                    <p>补交款合计：<span class="wxc-text-hint">￥4950.00</span></p>
+                </div>
+                <div class="table">
+                    <table class="" border="0" cellpadding="0" cellspacing="0">
+                        <thead>
+                        <tr>
+                            <td>类别</td>
+                            <td>产品名称</td>
+                            <td>单价（元）</td>
+                            <td>数量</td>
+                            <td>总价</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="3">墙面工程</td>
+                            <td>墙面铲除找平，乳胶漆批刷</td>
+                            <td>￥52／m²</td>
+                            <td>20</td>
+                            <td>￥340</td>
+                        </tr>
+                        <tr>
+                            <td>墙面铲除找平，乳胶漆批刷</td>
+                            <td>￥52／m²</td>
+                            <td>20</td>
+                            <td>￥340</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="wxc-cell wxc-cell-noLeft wxc-product-audit wxc-table-audit">
+                <table>
+                    <tr>
+                        <td><p>退货款合计：<span>￥5100.00</span></p></td>
+                        <td><p>换货运费合计：<span>￥49.00</span></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>补货款合计：<span>￥6000.00</span></p></td>
+                        <td><p>工艺补交款合计：<span>￥6386.00</span></p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="wxc-list-box wxc-paymentOrder-bd">
+            <strong>温馨提示！</strong>
+            <p>请核对您要支付的金额，建议用以下方式支付。</p>
+            <p>1.登录PC端支付</p>
+            <p>2.司空平台线下体验馆进行刷卡支付</p>
+            <p>体验店地址：烟台市莱山区滨海路33号</p>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-nav">
+        <div class="wxc-caseInfo-footer wxc-addDelete-footer">
+            <div class="wxc-addDelete-nav">
+                <p class="wxc-text-left">需支付金额：<strong>￥4950.00</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

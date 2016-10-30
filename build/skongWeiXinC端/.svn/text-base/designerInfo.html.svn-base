@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计师详情</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/downLoad.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh designerInfo contents-list">
+    <div class="wxc-designer-user-box">
+        <div class="wxc-user-box-con">
+            <div class="wxc-user-box-smn wxc-user-box">
+                <div class="wxc-user-headPortrait">
+                    <img src="images/wxc-icon-user-toux.png" alt="">
+                </div>
+            </div>
+            <div class="wxc-user-info">
+                <p class="wxc-user-name">刘忻了 <i class="wxc-icon wxc-icon-man"></i></p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-box">
+                <div class="sMain">
+                    <div class="wxc-cell-bd wxc-designer-info">
+                        <div class="wxc-designer-info-box">
+                            <p class="wxc-font-hint">所在地</p>
+                            <p class="wxc-designer-strong">北京</p>
+                        </div>
+                        <div class="wxc-designer-info-box">
+                            <p class="wxc-font-hint">作品</p>
+                            <p class="wxc-designer-strong">22</p>
+                        </div>
+                        <div class="wxc-designer-info-box">
+                            <p class="wxc-font-hint">粉丝</p>
+                            <p class="wxc-designer-strong">356</p>
+                        </div>
+                    </div>
+                    <div class="wxc-designer-user-btn">
+                        <button type="button" class="wxc-btn wxc-designer-user-box-btn">私信</button>
+                        <button type="button" class="wxc-btn wxc-designer-user-box-btn">+关注</button>
+                    </div>
+                </div>
+                <div class="sMain"><p class="wxc-designer-user-box-text">设计不仅仅是图纸，还要有思想、有创造，要求新、求异、求变、求不同，否则设计不能称之为设计。</p></div>
+            </div>
+            <ul class="slide-item">
+                <li class="cur"></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="wxc-box-content wxc-designer-user-ev">
+            <div class="wxc-cell-bd wxc-cell-primary">
+                <div class="wxc-grade-box">
+                    <div class="wxc-grade-box wxc-grade-box-z" style="width: 50%;"></div>
+                </div>
+                <span>4.8</span>
+            </div>
+            <div class="wxc-cell-ft">
+                <a href="">查看评价</a>
+            </div>
+        </div>
+        <div class="wxc-cells wxc-designer-user-info">
+            <div class="wxc-cell">
+                <div class="wxc-cell-primary wxc-text-center">
+                    <p class="wxc-font-min-info">擅长风格：简欧、田园、中式</p>
+                    <p class="wxc-font-min-info">所属机构：北京埃森设计工作室</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-designer-contents wxc-product-contents scrollable" id="scrollable">
+        <div class="wxc-product scrollable-box">
+            <div class="wxc-product-box">
+                <div class="wxc-product-main">
+                    <img src="images/wxc-product-img.png" alt="">
+                </div>
+                <div class="wxc-product-ft">
+                    <div class="wxc-product-ft-primary">
+                        <h3>欧式简约望京花园田园话题</h3>
+                        <p>一居室 45㎡</p>
+                    </div>
+                    <div class="wxc-product-ft-zan">
+                        <i class="wxc-icon"></i>
+                        <p>1232</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-product-box">
+                <div class="wxc-product-main">
+                    <img src="images/wxc-product-img.png" alt="">
+                </div>
+                <div class="wxc-product-ft">
+                    <div class="wxc-product-ft-primary">
+                        <h3>欧式简约望京花园田园话题</h3>
+                        <p>一居室 45㎡</p>
+                    </div>
+                    <div class="wxc-product-ft-zan">
+                        <i class="wxc-icon hot"></i>
+                        <p>1232</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-product-box">
+                <div class="wxc-product-main">
+                    <img src="images/wxc-product-img.png" alt="">
+                </div>
+                <div class="wxc-product-ft">
+                    <div class="wxc-product-ft-primary">
+                        <h3>欧式简约望京花园田园话题</h3>
+                        <p>一居室 45㎡</p>
+                    </div>
+                    <div class="wxc-product-ft-zan">
+                        <i class="wxc-icon hot"></i>
+                        <p>1232</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-btn-default-fi">
+        <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">请TA设计</button>
+    </div>
+</div>
+<script>
+
+$(function(){
+    //下拉加载
+    downLoad.newClass({
+        slide: document.querySelector(".scrollable"),//要滚动列表的父元素直接添加 class scrollable
+        slideBoxClass: ".scrollable-box",//滚动的元素 scrollable-box
+        type: "loading",
+        refreshFn: function (num) {
+            //刷新ajax
+            var siRefresh = false;
+            return true;
+            //获取数据成功返回 siRefresh=true return siRefresh
+            //获取数据失败返回 siRefresh=false return siRefresh
+        },
+        loading: function (num) {
+            //加载ajax
+            var siLoading = false;
+            $.ajax();
+            //获取数据成功 siLoading=true return siLoading
+            //获取数据失败 siLoading=false return siLoading
+            return true;
+        }
+
+    });
+    Slider.newClass({
+        slide: document.querySelector(".slide"),
+        item: 0,
+        switch: false
+    });
+
+})
+
+</script>
+</body>
+</html>

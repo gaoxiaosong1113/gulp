@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh">
+    <div class="wxc-contents wxc-contents-tribalListInfo">
+        <div class="wxc-tribalListInfo-hd">
+            <h3>全新汇总装修流程神贴开工</h3>
+            <div class="wxc-tribalListInfo-userInfo wxc-tribalList">
+                <div class="wxc-user-info">
+                    <div class="wxc-user-tx img-responsive">
+                        <img src="images/wxc-icon-user-toux.png" alt="">
+                    </div>
+                    <div class="wxc-tribalListInfo-user">
+                        <div class="wxc-user-name">爱笑的雅宁</div>
+                        <div class="wxc-user-time">32分钟前</div>
+                    </div>
+                </div>
+                <div class="wxc-forum-info-icon">
+                    <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                    <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-tribalListInfo-bd">
+            <img src="images/wxc-banner.jpg" alt="">
+            <p>近年来房价高涨，购买面积较小的房屋总价相对便宜，因而受到很多人的青睐，在60平以下的居住空间中，可以有哪些突破性的设计，让房子住起来更宽阔、更舒适，一些超乎想像的不思议设计，就让小编为大家介绍一些案例。</p>
+            <p>1. 弹性的空间</p>
+            <p>到底要怎么做，才能让一家三口住30平，却同时满足各种生活需求?设计师在屋内设计可移动的电动楼梯。</p>
+            <p>2. 可升降的衣柜</p>
+            <p>可调整的坐卧区，让各种收纳机能放到最大。</p>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-nav">
+        <div class="wxc-caseInfo-footer">
+            <div class="case-nav">
+                <div class="case-nav-icon">
+                    <i class="wxc-icon wxc-icon-x-ysz"></i>
+                    收藏<span>11</span>
+                </div>
+                <div class="case-nav-icon">
+                    <i class="wxc-icon wxc-icon-eve"></i>
+                    评论<span>11</span>
+                </div>
+                <div class="case-nav-icon">
+                    <i class="wxc-icon wxc-icon-share hot"></i>
+                    分享<span>11</span>
+                </div>
+            </div>
+            <div class="wxc-nav-btn">
+                <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">发布帖子</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(".wxc-head-select").sKongHeadSelect({
+        eleL: $(".wxc-select-px"),
+        eleShowL: $(".wxc-head-dq"),
+        eleR: $(".wxc-selectSelect"),
+        eleShowR: $(".wxc-cell-content")
+    });
+</script>
+</body>
+</html>

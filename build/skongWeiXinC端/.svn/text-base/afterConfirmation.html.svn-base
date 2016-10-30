@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>木作复尺</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+<div class="wxc-main-vh">
+    <div class="wxc-afterCom-contents">
+        <div class="wxc-reminder wxc-text-left">由于木作复尺过程中修改了定制商品方案要进行确认付款，请核对以下信息并确认。</div>
+        <div class="wxc-cells">
+            <div class="wxc-cell wxc-cell-flexStart">
+                <div class="wxc-cell-hd">
+                    <div class="wxc-user-tx img-responsive">
+                        <img src="images/wxc-icon-user-toux.png" alt="">
+                    </div>
+                </div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <div class="wxc-cell-text">管家:<span>陈工</span></div>
+                    <div class="wxc-cell-text">管家意见：<span>书房的书柜和书桌由于位置摆放需要多出10公分，卧室的木门垫高2公分！</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-list-box">
+            <div class="wxc-cells">
+                <div class="wxc-cell wxc-cell-flexStart">
+                    <p class="wxc-cell-text">原定制品金额：<strong>￥350.00</strong></p>
+                    <p class="wxc-cell-text">木作复尺后定制品金额：<strong>￥1850.00</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-nav">
+        <div class="wxc-caseInfo-footer wxc-addDelete-footer">
+            <div class="wxc-addDelete-nav">
+                <p>需支付金额：<strong>￥4950.00</strong></p>
+            </div>
+            <div class="wxc-nav-btn">
+                <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">确认补交金额</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

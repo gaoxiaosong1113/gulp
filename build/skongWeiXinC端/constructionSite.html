@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>周边</title>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+    <script type="text/javascript" src="js/SearchControl_min.js"></script>
+    <link rel="stylesheet" href="css/SearchControl_min.css"/>
+    <link href="css/TrafficControl_min.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/TrafficControl_min.js"></script>
+
+</head>
+
+<body>
+
+<div class="wxc-site-hd">
+    <div class="wxc-cells-box wxc-cells-seach">
+        <div class="wxc-input-warp wxc-cells-input">
+            <input class="wxc-input" type="text" placeholder="搜索地标、小区、学区、道路">
+            <button type="button" class="wxc-btn wxc-icon wxc-icon-seach"></button>
+        </div>
+        <button type="button" class="wxc-btn wxc-btn-success wxc-seach-btn">搜索</button>
+    </div>
+</div>
+<div class="wxc-return-warp wxc-main-vh">
+    <div id="map_container" style="position: absolute; top:0; left:0; right:0; bottom:0;"></div>
+    <script type="text/javascript">
+        // 百度地图API功能
+        map = new BMap.Map("map_container", {enableMapClick: false});
+        map.centerAndZoom(new BMap.Point(116.417854, 39.921988), 15);
+        var data_info = [[116.417854, 39.921988, "<div class='wxc-cells wxc-cells-box'><div class='wxc-cell'><div class='wxc-cell-bd wxc-cell-primary'><p><span>北京市朝阳区望京科技园3号楼1单元502</span></p></div><div class='wxc-cell-ft'><p>200km</p><p>项目经理：<span>王工</span></p></div></div><div class='wxc-cells wxc-cells-box'><div class='wxc-cell'><button class='wxc-btn wxc-btn-success wxc-btn-block' type='button'>预约参观</button></div></div></div>"],
+            [116.406605, 39.921585, "<div class='wxc-cells wxc-cells-box'><div class='wxc-cell'><div class='wxc-cell-bd wxc-cell-primary'><p><span>北京市朝阳区望京科技园3号楼1单元502</span></p></div><div class='wxc-cell-ft'><p>10km</p><p>项目经理：<span>张三</span></p></div></div><div class='wxc-cells wxc-cells-box'><div class='wxc-cell wxc-cell-flex'><button class='wxc-btn' type='button'>预约参观</button><button class='wxc-btn wxc-btn-success wxc-btn-block' type='button'>查看详情</button></div></div></div>"],
+            [116.412222, 39.912345, "<div class='wxc-cells wxc-cells-box'><div class='wxc-cell'><div class='wxc-cell-bd wxc-cell-primary'><p><span>北京市朝阳区望京科技园3号楼1单元502</span></p></div><div class='wxc-cell-ft'><p>100km</p><p>项目经理：<span>李四</span></p></div></div></div>"]//标注位置及信息
+        ];
+        var opts = {
+            width: 1250,     // 信息窗口宽度
+            height: 80,     // 信息窗口高度
+            title: "信息窗口" // 信息窗口标题
+        };
+
+        var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {
+            offset: new BMap.Size(10, 25),
+            imageOffset: new BMap.Size(0, 1)
+        });
+
+        for (var i = 0; i < data_info.length; i++) {
+            var marker = new BMap.Marker(new BMap.Point(data_info[i][0], data_info[i][1]), {icon: myIcon}, map.getCenter());  // 创建标注
+            var content = data_info[i][2];
+            map.addOverlay(marker);               // 将标注添加到地图中
+            addClickHandler(content, marker);
+        }
+        function addClickHandler(content, marker) {
+            marker.addEventListener("click", function (e) {
+                        openInfo(content, e);
+                        $(".wxc-site-text").fadeIn(200);
+                    }
+            );
+        }
+        function openInfo(content, e) {
+            var p = e.target;
+            var point = new BMap.Point(p.getPosition().lng, p.getPosition().lat);
+            var infoWindow = new BMap.InfoWindow(content, opts);  // 创建信息窗口对象
+            //map.openInfoWindow(infoWindow, point); //开启信息窗口
+            $("#r-result").html(infoWindow.getContent())
+        }
+
+    </script>
+    <div id="r-result" class="wxc-site-text">
+
+    </div>
+</div>
+
+</body>
+
+</html>

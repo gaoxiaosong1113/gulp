@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #ccc;
+  height: 500px;
+  width: 500px;
+  border: 1px solid red;
+}
+h1 {
+  background: #ccc;
+  height: 50px;
+  font-size: 99px;
+}

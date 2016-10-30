@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SKong</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+</head>
+<body>
+<div class="wxc-main-vh wxc-position">
+    <div class="wxc-head">
+        <div class="wxc-head-hd">
+            <div class="wxc-icon wxc-logo"><img src="images/wxc-logo2.png" alt=""></div>
+        </div>
+        <div class="wxc-head-bd wxc-cell-primary">
+            <div class="wxc-position-eit">北京</div>
+        </div>
+        <div class="wxc-head-ft">
+            <i class="wxc-icon"><img src="images/wxc-icon-circum.png" alt=""></i>
+        </div>
+    </div>
+
+    <div class="wxc-position-content wxc-contents">
+        <div class="wxc-content">
+            <div class="wxc-content-hd">
+                <p class="wxc-font-text">当前定位：</p>
+            </div>
+            <div class="wxc-content-bd">
+                <button type="button" class="wxc-btn wxc-btn-sm wxc-btn-success wxc-current-position">正在定位中...</button>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-position-content wxc-contents">
+        <div class="wxc-content wxc-content-position">
+            <div class="wxc-content-hd">
+                <p class="wxc-font-text">推荐城市：</p>
+            </div>
+            <div class="wxc-content-bd">
+                <div class="wxc-content-box">
+                    <button type="button" class="wxc-btn wxc-btn-sm wxc-btn-default ">青岛</button>
+                    <button type="button" class="wxc-btn wxc-btn-sm wxc-btn-default ">烟台</button>
+                    <button type="button" class="wxc-btn wxc-btn-sm wxc-btn-default ">潍坊</button>
+                    <button type="button" class="wxc-btn wxc-btn-sm wxc-btn-default ">威海</button>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-content no-padding">
+            <p class="wxc-font-hint">其它城市暂缓开通！</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

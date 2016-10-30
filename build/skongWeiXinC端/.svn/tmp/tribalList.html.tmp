@@ -1,0 +1,496 @@
+<<<<<<< .mine
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帖子列表</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+    <script type="text/javascript" src="js/downLoad.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh case">
+    <div class="wxc-head">
+        <div class="wxc-head-hd">
+            <div class="wxc-icon wxc-logo"><img src="images/wxc-logo2.png" alt=""></div>
+        </div>
+        <div class="wxc-head-bd wxc-cell-primary">
+            <div class="wxc-position-eit">北京</div>
+        </div>
+        <div class="wxc-head-ft">
+            <i class="wxc-icon"><img src="images/wxc-icon-circum.png" alt=""></i>
+        </div>
+    </div>
+
+    <div class="wxc-contents wxc-tribalList-contents scrollable" id="scrollable">
+        <div class="wxc-product scrollable-box">
+            <div class="wxc-head-select">
+                <div class="wxc-head wxc-select-warp wxc-tribalList-hd">
+                    <div class="wxc-select hot">
+                        <span class="wxc-selectS wxc-select-px">所有版块</span>
+                    </div>
+                    <div class="">
+                        <button class="wxc-btn" type="button">发表帖子</button>
+                    </div>
+                </div>
+                <div class="wxc-head-dq wxc-alert-dg">
+                    <div class="wxc-cells wxc-head-dq-list">
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                所有版块
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                无醛空间
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                云设计交流
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                问题反馈
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                司空大学
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                活动竞赛
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells">
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    $.get("footer.html", function (data) {
+        $(".wxc-main-vh").append(data);
+    });
+    $(".wxc-head-select").sKongHeadSelect({
+        eleL: $(".wxc-select-px"),
+        eleShowL: $(".wxc-head-dq")
+    });
+    //下拉加载
+    downLoad.newClass({
+        slide: document.querySelector(".scrollable"),//要滚动列表的父元素直接添加 class scrollable
+        slideBoxClass: ".scrollable-box",//滚动的元素 scrollable-box
+        type: "all",
+        refreshFn: function () {
+            //刷新ajax
+            var siRefresh = false;
+            $.ajax();
+            return true;
+            //获取数据成功返回 siRefresh=true return siRefresh
+            //获取数据失败返回 siRefresh=false return siRefresh
+        },
+        loading: function () {
+            //加载ajax
+            var siLoading = false;
+            $.ajax();
+            //获取数据成功 siLoading=true return siLoading
+            //获取数据失败 siLoading=false return siLoading
+            return true;
+        }
+
+    });
+
+</script>
+</body>
+</html>=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帖子列表</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh case">
+    <div class="wxc-head">
+        <div class="wxc-head-hd">
+            <div class="wxc-icon wxc-logo"><img src="images/wxc-logo2.png" alt=""></div>
+        </div>
+        <div class="wxc-head-bd wxc-cell-primary">
+            <div class="wxc-position-eit">北京</div>
+        </div>
+        <div class="wxc-head-ft">
+            <i class="wxc-icon"><img src="images/wxc-icon-circum.png" alt=""></i>
+        </div>
+    </div>
+
+    <div class="wxc-contents wxc-tribalList-contents scrollable" id="scrollable">
+        <div class="wxc-product scrollable-box">
+            <div class="wxc-head-select">
+                <div class="wxc-head wxc-select-warp wxc-tribalList-hd">
+                    <div class="wxc-select hot">
+                        <span class="wxc-selectS wxc-select-px">所有版块</span>
+                    </div>
+                    <div class="">
+                        <button class="wxc-btn" type="button">发表帖子</button>
+                    </div>
+                </div>
+                <div class="wxc-head-dq wxc-alert-dg">
+                    <div class="wxc-cells wxc-head-dq-list">
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                所有版块
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                无醛空间
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                云设计交流
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                问题反馈
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                司空大学
+                            </div>
+                        </div>
+                        <div class="wxc-cell">
+                            <div class="wxc-cell-primary">
+                                活动竞赛
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells">
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="wxc-cell">
+                    <div class="wxc-cell-bd wxc-cell-primary">
+                        <div class="wxc-tribalList-in-hd">
+                            <h3>全新汇总装修流程神贴开工与拆改<i class="wxc-icon wxc-icon-zding">置顶</i><i class="wxc-icon wxc-icon-jhtie">精华帖</i></h3>
+                        </div>
+                        <div class="wxc-tribalList-in-bd">
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                            <div class="wxc-tribalList-in-img">
+                                <img src="images/wxc-banner.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="wxc-tribalList-in-ft wxc-tribalList">
+                            <div class="wxc-user-info">
+                                <div class="wxc-user-tx img-responsive">
+                                    <img src="images/wxc-icon-user-toux.png" alt="">
+                                </div>
+                                <div class="wxc-user-name">爱笑的雅宁</div>
+                                <div class="wxc-user-time">刚刚</div>
+                            </div>
+                            <div class="wxc-forum-info-icon">
+                                <span class="wxc-forum-info-look"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-look.png" alt=""></i>1255</span>
+                                <span class="wxc-forum-info-shuuceng"><i class="wxc-icon img-responsive"><img src="images/wxc-icon-eve.png" alt=""></i>1255</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    $.get("footer.html", function (data) {
+        $(".wxc-main-vh").append(data);
+    });
+    $(".wxc-head-select").sKongHeadSelect({
+        eleL: $(".wxc-select-px"),
+        eleShowL: $(".wxc-head-dq"),
+        eleR: $(".wxc-selectSelect"),
+        eleShowR: $(".wxc-cell-content")
+    });
+</script>
+</body>
+</html>>>>>>>> .r1893

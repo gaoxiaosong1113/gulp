@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发票</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh">
+    <div class="wxc-head wxc-head-group wxc-head-eval">
+        <div class="wxc-select hot ">
+            <span class="wxc-select-px">普通发票</span>
+        </div>
+        <div class="wxc-select">
+            <span class="">增值税发票</span>
+        </div>
+    </div>
+    <!--普通发票-->
+    <div class="wxc-sherd-con">
+        <div class="wxc-cells demand-contents invoice-contents wxc-content-mb">
+            <div class="wxc-cell wxc-contents wxc-cell-flexStart">
+                <div class="wxc-cell-hd">发票类型</div>
+                <div class="wxc-cell-bd wxc-content-bd wxc-cell-primary">
+                    <div class="wxc-check-warp">
+                        <input type="radio" id="checkbox_a1" class="wxc-check" name="q1">
+                        <label for="checkbox_a1" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                            企业
+                        </label>
+                    </div>
+                    <div class="wxc-check-warp">
+                        <input type="radio" id="checkbox_a2" class="wxc-check" name="q1">
+                        <label for="checkbox_a2" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                            个人
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="demand-contents invoice-contents">
+            <div class="wxc-cells">
+                <div class="wxc-cell">
+                    <div class="wxc-cell-hd">发票抬头</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                        <input class="wxc-input" type="text" placeholder="请输入发票抬头">
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells  wxc-contents wxc-content-mb">
+                <div class="wxc-cell">
+                    <div class="wxc-cell-hd">发票内容</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-content-bd wxc-cells-input">
+                        <div class="wxc-check-warp">
+                            <input type="radio" id="checkbox_a3" class="wxc-check" name="q1">
+                            <label for="checkbox_a3" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                                个人
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells wxc-contents">
+                <div class="wxc-cell">
+                    <div class="wxc-cell-hd">收票人姓名</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                        <input class="wxc-input" type="text" placeholder="请输入收票人姓名">
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells wxc-contents">
+                <div class="wxc-cell">
+                    <div class="wxc-cell-hd">收票人手机</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                        <input class="wxc-input" type="text" placeholder="请输入收票人手机">
+                    </div>
+                </div>
+            </div>
+            <div class="wxc-cells">
+                <div class="wxc-cell">
+                    <div class="wxc-cell-hd">地区</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                        <select class="wxc-input">
+                            <option selected="selected">请选择</option>
+                            <option>北京</option>
+                            <option>北京</option>
+                        </select>
+                        <select class="wxc-input">
+                            <option>北京</option>
+                            <option>北京</option>
+                            <option>北京</option>
+                        </select>
+                        <select class="wxc-input">
+                            <option>北京</option>
+                            <option>北京</option>
+                            <option>北京</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="wxc-cell wxc-cell-primary wxc-site-select">
+                    <div class="wxc-cell-hd">详细地址</div>
+                    <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                        <input class="wxc-input wxc-text-left" type="text" placeholder="请输入详细地址">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--增值税发票-->
+    <div class="demand-contents invoice-contents wxc-sherd-con">
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">单位名称</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入单位名称">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">纳税人识别码</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入纳税人识别码">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">注册地址</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <select class="wxc-input">
+                        <option selected="selected">请选择</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                </div>
+            </div>
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">详细地址</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <input class="wxc-input wxc-text-left" type="text" placeholder="请输入详细地址">
+                </div>
+            </div>
+        </div>
+
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">注册电话</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入注册电话">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">开户银行</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入开户银行">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">银行账户</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入银行账户">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">资质证明</div>
+                <div class="wxc-cell-bd" style="padding-right: 10px;">
+                    <label class="wxc-icon wxc-icon-apend" for="input-apend">
+                        <input type="file" id="input-apend">
+                    </label>
+                </div>
+                <div class="wxc-cell-bd wxc-cell-primary"> 请上传增值税一般纳税人认定证书</div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">收票人地址</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <select class="wxc-input">
+                        <option selected="selected">请选择</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                </div>
+            </div>
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">详细地址</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <input class="wxc-input wxc-text-left" type="text" placeholder="请输入详细地址">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-btn-default-fi">
+        <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">确认</button>
+    </div>
+</div>
+
+</body>
+</html>

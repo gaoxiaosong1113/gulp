@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提交订单</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,wxc-user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styleC.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/sherdC.js"></script>
+</head>
+<body>
+
+<div class="wxc-main-vh">
+    <div class="wxc-reminder">目前平台只开通了北京、青岛、烟台、威海、潍坊5个城市！</div>
+    <div class="wxc-cells demand-header wxc-cells-noBoder">
+        <div class="wxc-cell">
+            <div class="wxc-cell-hd">装修总额</div>
+            <div class="wxc-cell-bd wxc-cell-primary">
+                <p class="wxc-cell-imp">￥120000.00</p>
+                <p class="wxc-cell-init">（最终装修以量尺设计师复尺之后的报价为准）</p>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-cells demand-contents wxc-content-mb">
+        <div class="wxc-cell wxc-contents wxc-cell-flexStart">
+            <div class="wxc-cell-hd">定制品品牌</div>
+            <div class="wxc-cell-bd wxc-content-bd wxc-cell-primary wxc-cells-input">
+                <div class="wxc-check-warp">
+                    <input type="radio" id="checkbox_a1" class="wxc-check" name="q1">
+                    <label for="checkbox_a1" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                        司空无醛绿色家具 <i> + ¥0.00</i>
+                    </label>
+                </div>
+                <div class="wxc-check-warp">
+                    <input type="radio" id="checkbox_a2" class="wxc-check" name="q1">
+                    <label for="checkbox_a2" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                        司空无醛绿色家具 <i> + ¥0.00</i>
+                    </label>
+                </div>
+                <div class="wxc-check-warp">
+                    <input type="radio" id="checkbox_a3" class="wxc-check" name="q1">
+                    <label for="checkbox_a3" class="wxc-check-label wxc-btn wxc-btn-sm wxc-btn-default">
+                        司空无醛绿色家具 <i> + ¥0.00</i>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="demand-contents">
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">姓名</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入您的姓名">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">地区</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <select class="wxc-input">
+                        <option selected="selected">请选择</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                    <select class="wxc-input">
+                        <option>北京</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                </div>
+                <div class="wxc-cell-ft"></div>
+            </div>
+        </div>
+        <div class="wxc-cell">
+            <div class="wxc-cell-hd">小区名</div>
+            <div class="wxc-cell-bd wxc-cell-primary ">
+                <input class="wxc-input" type="text" placeholder="请输入您的小区名">
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell wxc-cell-flexStart">
+                <div class="wxc-cell-hd">详细地址</div>
+                <div class="wxc-cell-bd wxc-cell-primary">
+                    <textarea class="wxc-textarea" rows="3" placeholder="请输入详细地址"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">手机号</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入您的手机号">
+                </div>
+                <div class="wxc-cell-ft">
+                    <button type="button" class="wxc-yz-btn">获取验证码</button>
+                </div>
+            </div>
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">验证码</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-cells-input">
+                    <input class="wxc-input" type="text" placeholder="请输入验证码">
+                </div>
+            </div>
+        </div>
+        <div class="wxc-cells">
+            <div class="wxc-cell">
+                <div class="wxc-cell-hd">选择户型</div>
+                <div class="wxc-cell-bd wxc-cell-primary wxc-site-select">
+                    <select class="wxc-input">
+                        <option selected="selected">请选择</option>
+                        <option>北京</option>
+                        <option>北京</option>
+                    </select>
+                </div>
+                <div class="wxc-cell-ft"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wxc-copyright-bg"></div>
+    <div class="wxc-btn-default-fi">
+        <button class="wxc-btn wxc-btn-success wxc-btn-block" type="button">确认</button>
+    </div>
+</div>
+
+</body>
+</html>
